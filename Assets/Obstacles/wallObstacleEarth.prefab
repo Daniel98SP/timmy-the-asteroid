@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8232462836033104456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6384217922421319652}
+  - component: {fileID: 607660700842535441}
+  - component: {fileID: 8908054423800803128}
+  - component: {fileID: 7559145460356021808}
+  - component: {fileID: 8165770226659097609}
+  m_Layer: 0
+  m_Name: wallObstacleEarth 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6384217922421319652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232462836033104456}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 2558.146, y: 2772.65, z: 1610.4082}
+  m_LocalScale: {x: 1.5, y: 2.5, z: 3}
+  m_Children:
+  - {fileID: 384179380538740522}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &607660700842535441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232462836033104456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3618164, y: 0.6584962, z: 0.9471029}
+  m_Center: {x: 0.029541016, y: -0.13149409, z: -0.010253906}
+--- !u!65 &8908054423800803128
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232462836033104456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3943685, y: 0.6580078, z: 0.97212744}
+  m_Center: {x: 0.032470703, y: -0.13105468, z: -0.012919029}
+--- !u!114 &7559145460356021808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232462836033104456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d76357c58001b0479ab2022751a8139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8165770226659097609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232462836033104456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba7cd7d947711e408245aeb021fc118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4624728231857300528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6384217922421319652}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_Name
+      value: Resourced_Corner Boxwood Hedge FBX
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2574324
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6585807
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6585807
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2574324
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 42.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.99998
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 15f9bbabfde0fb746b75a02c2b484cce, type: 3}
+--- !u!4 &384179380538740522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 15f9bbabfde0fb746b75a02c2b484cce,
+    type: 3}
+  m_PrefabInstance: {fileID: 4624728231857300528}
+  m_PrefabAsset: {fileID: 0}
